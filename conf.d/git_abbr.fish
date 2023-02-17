@@ -9,6 +9,8 @@ set -g __git_abbr_version 0.2.1
 
 abbr g 'git'
 
+abbr gref 'git reflog'
+
 abbr ga 'git add'
 abbr gaa 'git add --all'
 abbr gapa 'git add --patch'
@@ -144,6 +146,8 @@ abbr gp 'git push'
 abbr gpd 'git push --dry-run'
 abbr gpf 'git push --force-with-lease'
 abbr gpf! 'git push --force'
+abbr gpoh 'git push origin (git_current_branch)'
+abbr gpom 'git push origin (git_main_branch)'
 abbr gpt 'git push --tags'
 abbr gptf 'git push --tags --force-with-lease'
 abbr gptf! 'git push --tags --force'
@@ -356,6 +360,8 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e gpd
   abbr -e gpf
   abbr -e gpf!
+  abbr -e gpoh
+  abbr -e gpom
   abbr -e gpt
   abbr -e gptf
   abbr -e gptf!
@@ -385,6 +391,7 @@ function git_abbr_uninstall --on-event git_abbr_uninstall
   abbr -e grbom
   abbr -e grbo
   abbr -e grbs
+  abbr -e gref
   abbr -e grev
   abbr -e grs
   abbr -e grs!
