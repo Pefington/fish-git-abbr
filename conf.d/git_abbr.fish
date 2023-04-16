@@ -123,7 +123,7 @@ abbr glg 'git log --graph'
 abbr glgda 'git log --graph --decorate --all'
 abbr glgm 'git log --graph --max-count=10'
 abbr glo 'git log --oneline --decorate'
-abbr glog 'git log --oneline --decorate --graph --max-count=10'
+abbr glog 'git log --oneline --decorate --graph --max-count=20'
 abbr glogg 'git log --oneline --decorate --graph'
 abbr gloga 'git log --oneline --decorate --graph --all'
 # abbr glol
