@@ -8,7 +8,7 @@ Mainly based off those of [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zs
 Using [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher install lewisacidic/fish-git-abbr
+fisher install pefington/fish-git-abbr
 ```
 
 ## Usage
